@@ -1,0 +1,61 @@
+.pergunta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pergunta-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resultado-box {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Adicione as regras abaixo ao seu arquivo pergunta.css */
+
+.cronometro {
+position: fixed;
+top: 10px;
+right: 10px;
+color: red;
+font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+background-color: white; /* Cor de fundo, ajuste conforme necessário */
+padding: 5px 10px; /* Espaçamento interno, ajuste conforme necessário */
+border: 1px solid red; /* Borda, ajuste conforme necessário */
+border-radius: 5px; /* Borda arredondada, ajuste conforme necessário */
+}
+
+
+
